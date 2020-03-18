@@ -23,7 +23,7 @@ class Post
   end 
   
   def posts
-    @@all.collect do |post|
+    Athor.all.collect do |post|
       post.author=self 
     end 
   end 
