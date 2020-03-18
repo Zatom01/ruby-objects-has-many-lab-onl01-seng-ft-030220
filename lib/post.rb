@@ -24,15 +24,3 @@ class Post
   
  
 end 
-  
-   
-
-    
-
-  
-
-  
-  
-  
-  
-end 
