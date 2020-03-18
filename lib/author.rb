@@ -31,9 +31,10 @@ class Author
     @@post_count+=1 
   end 
   
-  def post 
-    Post.all.select {|author| author.author=self}
-  end
+  def posts
+    Author.all.collect do |post|
+      post.author==self 
+  end 
   
  
   
