@@ -22,10 +22,7 @@ class Post
     end 
   end 
   
-  def posts
-    Author.all.collect do |post|
-      post.author==self 
-    end 
+ 
   end 
   
    
