@@ -28,7 +28,7 @@ class Author
   end 
   
   def posts
-    Posts.all.collect do |post|
+    Post.all.collect do |post|
       post.author == self 
     end 
   end 
