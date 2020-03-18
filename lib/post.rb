@@ -24,7 +24,7 @@ class Post
   
   def posts
     Athor.all.collect do |post|
-      post.author=self 
+      post.author==self 
     end 
   end 
   
