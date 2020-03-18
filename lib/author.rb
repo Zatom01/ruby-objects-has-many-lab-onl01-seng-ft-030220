@@ -35,6 +35,7 @@ class Author
     Author.all.collect do |post|
       post.author==self 
   end 
+  end 
   
  
   
