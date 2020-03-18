@@ -27,10 +27,10 @@ class Author
     @@post_count+=1 
   end 
   
-  # def posts
-  #   Author.all.collect do |post|
-  #     post.author == self 
-  #   end 
-  # end 
+  def posts
+    Author.all.collect do |post|
+      post.author == self 
+    end 
+  end 
   
 end 
